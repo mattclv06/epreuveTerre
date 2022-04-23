@@ -1,3 +1,5 @@
-let oto = this.Document;
+const path = __filename;
+const dir = __dirname+ "\\";
 
-console.log(oto)
+
+console.log(path.replace(dir,""));
